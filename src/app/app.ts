@@ -8,5 +8,5 @@ import { RouterOutlet } from '@angular/router';
   styleUrl: './app.css'
 })
 export class App {
-  protected readonly title = signal('cinebook-ui');
+  protected readonly title = signal('Cinebook Movie Booking System');
 }
