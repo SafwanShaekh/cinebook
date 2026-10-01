@@ -1,0 +1,14 @@
+Data Types in typescript (string, number, boolean, arrays)
+let movieTitle: string = "Inception";
+let duration: number= 148;
+let isBooked: boolean = false;
+let genres: string[] = ["Action", "Drama"];
+
+
+TypeScript mein interface ek "blueprint" ya "contract" (mouhada) hota hai jo kisi object ki shape (structure) ko define karta hai. Yeh TypeScript ko batata hai ke kisi object ke andar kaun kaun si properties honi chahiye aur unki data type kya hogi.
+
+How is it different from Class?
+Interface vs Class
+Boht se log ismein confuse hote hain, lekin inmein wazeh farq hai:
+• Class: Yeh blueprint bhi hoti hai aur iske andar actual kaam (logic/values) bhi likha jata hai. Is se aap naye objects generate (new ClassName()) kar sakte hain.
+• Interface: Yeh sirf ek nishan ya daaira lagata hai ke object dikhne mein kaisa hoga. Iski apni koi value ya logic nahi hoti aur na hi is se naya object create kiya ja sakta hai
